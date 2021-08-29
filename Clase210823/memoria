@@ -1,0 +1,5 @@
+echo "Memoria libre: "
+free
+echo "Memoria virtual: "
+vmstat
+

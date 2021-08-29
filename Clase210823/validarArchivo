@@ -1,0 +1,11 @@
+clear
+echo "Ingrese un nombre:"
+read valor
+if test -f $valor
+then
+	echo "$valor es una archivo"
+	ps aux > $valor
+	more $valor
+else
+	echo "$valor No es un archivo"
+fi

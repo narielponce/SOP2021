@@ -1,0 +1,12 @@
+clear
+echo "Ingrese una cadena"
+read valor
+if test -d $valor
+then
+	echo "$valor es un directorio"
+	echo
+	echo "Valores de inodo"
+	ls -i | cut -d' ' -f1
+else
+	echo "$valor No es un directorio"
+fi 

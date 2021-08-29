@@ -1,0 +1,21 @@
+clear
+while true
+do
+	echo "Elija una opcion"
+	echo "----------------"
+	echo "a) Mostrar memoria virtual y libre"
+	echo "b) Solicitar entrada y validar si es un directorio"
+	echo "c) Solicitar un valor y validar si es un archivo, si lo es, agregar info de proc.act"
+	echo "d) Solicitar un valor y si es un directorio, mostrar los nros. de inodo y sumarlos"
+	echo "e) Salir"
+
+	read opc
+	case $opc in
+		a) sh memoria;;
+		b) sh validarDirectorio;;
+		c) sh validarArchivo;;
+		d) sh directorioInodo;;
+		e) exit;;
+		*) echo "Opcion incorrecta"
+	esac
+done

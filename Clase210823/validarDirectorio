@@ -1,0 +1,8 @@
+echo "Ingrese un nombre de directorio"
+read valor
+if test -d $valor
+then
+	echo "El directorio $valor existe"
+else
+	echo "El directorio $valor No existe"
+fi

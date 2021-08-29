@@ -1,0 +1,28 @@
+
+clear
+echo " Ingrese dos numeros:"
+read nro1 nro2
+
+while true
+do
+echo " Elija una opcion"
+echo " a) Realiza una operacion de suma"
+echo " b) Realiza una operacion de resta"
+echo " c) Realiza una division"
+echo " d) Realiza una multiplicacion"
+echo " s) Salir"
+echo " i) Ingresar nuevos nuemeros?"
+read opc
+case $opc in
+1|A|a) sh suma $nro1 $nro2;;
+2|B|b) sh resta $nro1 $nro2;;
+3|C|c) sh division $nro1 $nro2;;
+4|D|d) sh multiplicacion $nro1 $nro2;;
+i|I) echo "Ingrese nuevamente dos numeros"
+read nro1
+read nro2;;
+5|S|s) exit;;
+*) echo "Opcion incorrecta"
+esac
+done
+
