@@ -6,3 +6,7 @@ then
 else
 	echo "El directorio $valor No existe"
 fi
+echo
+echo "Presione Enter para salir"
+read a
+

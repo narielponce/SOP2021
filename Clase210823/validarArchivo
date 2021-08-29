@@ -3,9 +3,13 @@ echo "Ingrese un nombre:"
 read valor
 if test -f $valor
 then
-	echo "$valor es una archivo"
-	ps aux > $valor
+	echo "$valor es un archivo"
+	ps u > $valor
+	echo "Mostrando procesos activos"
 	more $valor
 else
 	echo "$valor No es un archivo"
 fi
+echo
+echo "Presione Enter para salir"
+read a

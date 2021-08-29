@@ -1,0 +1,14 @@
+Crear un ShellScript que sea un menu de opciones, que informe o muestre segun la opcion elegida por el usuario
+
+las opciones son:
+
+a) Que permite mostrar la memoria virtual, la memoria libre.
+
+b) Que solicite un valor al usuario y valide si es un directorio
+
+c) Que solicite un valor al usuario y valide si es un archivo, si lo es agregue la informacion de los procesos activos
+
+d) Que solicite un valor y si es un directorio muestre los nros de inodo de los archivo que contiene y sume dichos numeros.
+
+e) salir
+///// CADA OPCION REALIZAR EN SCRIPT SEPARADOS PARA practicar script que llama a script

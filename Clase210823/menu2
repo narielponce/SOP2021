@@ -1,21 +1,22 @@
 clear
 while true
 do
+	clear
 	echo "Elija una opcion"
 	echo "----------------"
 	echo "a) Mostrar memoria virtual y libre"
 	echo "b) Solicitar entrada y validar si es un directorio"
-	echo "c) Solicitar un valor y validar si es un archivo, si lo es, agregar info de proc.act"
+	echo "c) Solicitar un valor y validar si es un archivo, si lo es, agregar info de procesos activos"
 	echo "d) Solicitar un valor y si es un directorio, mostrar los nros. de inodo y sumarlos"
 	echo "e) Salir"
 
 	read opc
 	case $opc in
-		a) sh memoria;;
-		b) sh validarDirectorio;;
-		c) sh validarArchivo;;
-		d) sh directorioInodo;;
-		e) exit;;
+		1|A|a) sh memoria;;
+		2|B|b) sh validarDirectorio;;
+		3|C|c) sh validarArchivo;;
+		4|D|d) sh directorioInodo;;
+		5|E|e) exit;;
 		*) echo "Opcion incorrecta"
 	esac
 done

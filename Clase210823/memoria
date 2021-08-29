@@ -1,5 +1,6 @@
 echo "Memoria libre: "
-free
-echo "Memoria virtual: "
-vmstat
-
+echo "---------------"
+free -m
+echo
+echo "Presione Enter para salir"
+read a

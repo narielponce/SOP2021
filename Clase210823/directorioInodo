@@ -1,12 +1,26 @@
-clear
-echo "Ingrese una cadena"
-read valor
-if test -d $valor
+echo "Ingrese un valor:"
+read dir
+
+if test -d $dir
 then
-	echo "$valor es un directorio"
-	echo
-	echo "Valores de inodo"
-	ls -i | cut -d' ' -f1
+	echo "$dir es un directorio..."
+	cd ./$dir
+	ls -il > inodos
+	total=`cut -f1 -d " " inodos`
+
+	suma=0
+	for i in $total
+	do
+		if test $i != "total"
+		then
+			suma=`expr $suma + $i`
+		fi
+	done
+	echo "La suma de los inodos de $dir es $suma"
+	
 else
-	echo "$valor No es un directorio"
-fi 
+	echo "$dir no es un directorio"
+fi
+echo
+echo "Presione Enter para salir"
+read a
