@@ -1,12 +1,12 @@
 total 40
-4457739 -rw-rw-r-- 1 ariel ariel  380 ago 29 17:06 arch01
-4456795 drwxrwxr-x 2 ariel ariel 4096 ago 29 17:26 dir01
-4457740 -rw-rw-r-- 1 ariel ariel  335 ago 29 17:32 directorioInodo
+4457739 -rw-rw-r-- 1 ariel ariel  380 ago 29 17:39 arch01
+4456795 drwxrwxr-x 2 ariel ariel 4096 ago 29 17:32 dir01
+4457740 -rw-rw-r-- 1 ariel ariel  381 ago 29 17:34 directorioInodo
 4457326 -rw-rw-r-- 1 ariel ariel  601 ago 29 16:33 ejercicioMenu.txt
-4462526 -rw-rw-r-- 1 ariel ariel    0 ago 29 17:32 inodos
+4462526 -rw-rw-r-- 1 ariel ariel    0 ago 30 14:53 inodos
 4457741 -rw-rw-r-- 1 ariel ariel   99 ago 29 16:56 memoria
 4457742 -rw-rw-r-- 1 ariel ariel  569 ago 29 16:27 menu
-4457743 -rw-rw-r-- 1 ariel ariel  565 ago 29 17:00 menu2
+4457743 -rw-rw-r-- 1 ariel ariel  583 ago 29 17:44 menu2
 4457744 -rw-rw-r-- 1 ariel ariel    8 ago 29 16:27 multiplicaion
 4457745 -rw-rw-r-- 1 ariel ariel  243 ago 29 17:06 validarArchivo
 4457746 -rw-rw-r-- 1 ariel ariel  202 ago 29 16:57 validarDirectorio
